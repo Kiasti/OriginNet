@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{8c026f7f-a09f-4d55-b28f-f054eba1bf8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\NetBuffer">
+      <UniqueIdentifier>{2f8330b5-94a1-48fd-9ebf-7b4896135f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Interfaces">
+      <UniqueIdentifier>{6dd141a3-ff5d-43a5-935f-14a39ec780d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Global">
+      <UniqueIdentifier>{492b9478-2473-4ada-9aa6-f075c64bf9e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Packet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OriginNet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchiveCrypter.ixx">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.ixx">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Sender.ixx">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.ixx">
+      <Filter>Modules\NetBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferCrypt.ixx">
+      <Filter>Modules\NetBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="iArchiver.ixx">
+      <Filter>Modules\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="iCrypter.ixx">
+      <Filter>Modules\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="iSerialize.ixx">
+      <Filter>Modules\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Concept.ixx">
+      <Filter>Modules\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadSafeQueue.ixx">
+      <Filter>Modules\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeMeta.ixx">
+      <Filter>Modules\Global</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
